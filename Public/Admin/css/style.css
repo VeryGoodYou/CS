@@ -1,0 +1,254 @@
+.zuo{
+    width: 100%;
+    list-style: none;
+}
+.zuo li{
+    float: left;
+    width: 191px;
+}
+.zuo li img{
+    width: 90%;
+}
+.zuo li:nth-of-type(3){
+    width: 175px;
+}
+.zuo li:nth-of-type(5){
+    width: 206px;
+}
+.zuo li:nth-of-type(1){
+    width: 172px;
+}
+.zuo li a{
+    font-weight: bold;
+    text-decoration: none;
+}
+.zuo li:nth-of-type(6){
+    width: 202px;
+}
+.zuo li div{
+    margin: 0 58px;
+}
+.jumbotron{
+    background-color: #0f0f0f;
+    height: 299px;
+    padding-top: 0px;
+    margin: 0;
+}
+.jumbotron img{
+    float: left;
+    padding-left: 89px;
+}
+.jumbotron div{
+    position: relative;
+    top: 63px;
+    padding-left: 658px;
+    line-height: 36px;
+}
+.jumbotron a{
+    color: #adadad;
+    text-decoration: none;
+    margin: 10px;
+    margin-top: 10px;
+}
+.jumbotron span{
+    color: #adadad;
+}
+.jumbotron a:hover{
+    color: #d58512;
+}
+.jumbotron ul{
+    font-size: 15px;
+    color: #adadad;
+    padding-left: 10px;
+    list-style: none;
+}
+.nav-tabs{
+    border: 0px solid red;
+    position: relative;
+    top: 101px;
+    height: 96px;
+    padding-top: 18px;
+    background: rgba(255,255,255,0.2);
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+    background-color: transparent;
+    border: transparent;
+}
+.nav-tabs li a{
+    color: #9c9c9c;
+    font-family: '楷体';
+    font-style: oblique;
+}
+.nav-tabs li{
+    font-size: 30px;
+    margin: 0 54px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+    color: #ffbc57;
+}
+.nav-tabs > li > a:hover{
+    background-color: transparent;
+    border: transparent;
+    color: darkorange;
+}
+.nav-tabs img{
+    width: 177px;
+    float: left;
+    opacity: 0.6;
+    position: relative;
+    top: -19px;
+    margin-left: 107px;
+}
+.bt img{
+    height: 83px;
+}
+.tab-content > .active{
+    padding-top: 140px;
+    line-height: 37px;
+    padding-left: 252px;
+    width: 1237px;
+}
+#home div{
+    float: left;
+    width: 183px;
+    color: aliceblue;
+}
+#home div:hover{
+    text-decoration: underline;
+    color: darkorange;
+}
+.tab-pane{
+    width: 766px;
+}
+.tab-pane img{
+    height: 93px;
+}
+.sao{
+    position: fixed;
+    background-image: url("../img/download.jpg");
+    background-size: 100% 100%;
+    top: 263px;
+    font-family: 'myjin';
+}
+@font-face{
+    font-family: 'myjin';
+    src: url("../fonts/TTENuoJ_0.ttf");
+}
+.sao li{
+    width: 182px;
+    float: none;
+    list-style: none;
+    margin: auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.sao h1 a{
+    color: #9c9c9c;
+    text-decoration: none;
+    font-family: 'myjin';
+}
+.sao h1 a:hover{
+    color: darkorange;
+    text-decoration: underline;
+}
+.sao li a{
+    color: #9c9c9c;
+    text-decoration: none;
+}
+.sao li a:hover{
+    color: darkorange;
+    text-decoration: underline;
+}
+.bo{
+    float: right;
+    list-style: none;
+    width: 260px;
+    position: relative;
+    top:208px;
+
+}
+.fin{
+    position: fixed;
+    width: 198px;
+    background-image: url("../img/zhi.jpg");
+    background-size: 100% 100%;
+    padding-left: 17px;
+}
+.fin li{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 178px;
+}
+.fin h1 a{
+    color: #9c9c9c;
+    font-family: 'myjin';
+}
+.fin li a{
+    color: #9c9c9c;
+    font-family: 'myjin';
+}
+.fin>h1>a:hover,.fin>li>a:hover{
+    color: darkorange;
+}
+.tab-pane img{
+    height: 93px;
+}
+.tab-pane div{
+    width: 187px;
+    float: left;
+    color: aliceblue;
+}
+.tab-pane div:hover{
+    color: darkorange;
+    text-decoration: underline;
+}
+#jishu div{
+    width: 179px;
+}
+#sais div{
+    width: 160px;
+    margin-left: 25px;
+}
+#yule div{
+    width: 178px;
+    margin-left: 14px;
+}
+.modal-dialog{
+    position: relative;
+    right: 117px;
+    top: 72px;
+}
+.col-md-3{
+    position: relative;
+    width: 32%;
+    left: 297px;
+}
+.row{
+    margin-right: 0;
+}
+.guan{
+    position: relative;
+    font-size: 26px;
+    height: 0;
+    top: 126px;
+    right: 23px;
+    color: #deb592;
+}
+.you{
+    position: relative;
+    font-size: 30px;
+    top: 126px;
+    right: 23px;
+    color: #deb592;
+}
+.qi{
+    text-align: center;
+    margin-top: 127px;
+    color: #000;
+    font-size: 36px;
+}
+.thumbnail img{
+    height: 300px;
+}

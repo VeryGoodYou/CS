@@ -1,0 +1,54 @@
+.nav-tabs{
+    border: none;
+    font-size: 16px;
+}
+#home a,.tab-pane a{
+    opacity: 0.4;
+    transition: 0.5s ease;
+}
+#home a:hover,.tab-pane a:hover{
+    opacity: 1;
+}
+.nav-tabs{
+    background-color: rgba(255,255,255,0.2);
+    height: 75px;
+    padding-top: 15px;
+}
+.nav-tabs > li{
+    width: 157px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0 16px;
+    font-style: oblique;
+}
+.nav-tabs > li > a{
+    color: #FFFFFF;
+    transition: 0.5s ease;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+    border: transparent;
+    background-color: transparent;
+}
+.nav-tabs > li > a:hover{
+    background-color: transparent;
+    border: transparent;
+    color: darkorange;
+    text-decoration: underline;
+}
+.tab-content > .active{
+    word-spacing: 84px;
+    line-height: 220px;
+    width: 92%;
+    text-align: center;
+    margin: auto;
+}
+#bishou a img{
+    width: 159px;
+}
+#touzhi img{
+    width: 160px;
+}
+#ditu img{
+    width: 160px;
+}
